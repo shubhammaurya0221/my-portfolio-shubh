@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --bg-dark: #050505;
+  --text-primary: #ffffff;
+  --text-secondary: #a3a3a3;
+  --accent-start: #ff8c00;
+  --accent-end: #ffb74d;
+  
+  font-family: "Space Grotesk", "Inter", sans-serif;
+  color-scheme: dark;
+  background-color: var(--bg-dark);
+  color: var(--text-primary);
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-color: var(--bg-dark);
+}
+
+/* Typography Utilities */
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+.font-space {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+/* Editorial & Minimalist Utilities */
+.editorial-heading {
+  font-size: clamp(3rem, 8vw, 120px);
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+}
+
+.section-title {
+  font-size: clamp(2rem, 5vw, 60px);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, var(--accent-start), var(--accent-end));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+}
+
+.glass-nav {
+  background: rgba(5, 5, 5, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Hover Utilities */
+.hover-underline {
+  position: relative;
+}
+
+.hover-underline::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: currentColor;
+  transform-origin: bottom right;
+  transition: transform 0.3s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.hover-underline:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* Minimalist Button */
+.btn-primary {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2.5rem;
+  background: transparent;
+  color: var(--text-primary);
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border: 1px solid rgba(255, 140, 0, 0.5);
+  border-radius: 9999px;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.btn-primary::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent-start), var(--accent-end));
+  z-index: -1;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.btn-primary:hover {
+  border-color: transparent;
+  color: #000;
+  font-weight: 600;
+}
+
+.btn-primary:hover::before {
+  transform: scaleY(1);
+}
