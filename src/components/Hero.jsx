@@ -35,7 +35,7 @@ function Hero() {
           className="overflow-hidden mb-6"
         >
           <span className="text-secondary font-space text-[10px] sm:text-xs tracking-[0.4em] uppercase block">
-            Software Engineer // MERN Stack
+            Software Engineer | MERN Stack Developer
           </span>
         </motion.div>
 
@@ -45,8 +45,8 @@ function Hero() {
           transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1], delay: 0.1 }}
           className="editorial-heading text-white flex flex-col gap-0 sm:gap-2 mb-8"
         >
-          <span className="block overflow-hidden"><span className="block tracking-tighter">FULL STACK</span></span>
-          <span className="block overflow-hidden"><span className="block text-gradient tracking-tighter">DEVELOPER</span></span>
+          <span className="block overflow-hidden"><span className="block tracking-tighter">SHUBHAM</span></span>
+          <span className="block overflow-hidden"><span className="block text-gradient tracking-tighter">MAURYA</span></span>
         </motion.h1>
 
         <motion.h2
