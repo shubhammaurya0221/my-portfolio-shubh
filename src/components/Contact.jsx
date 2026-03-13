@@ -87,7 +87,7 @@ function Contact() {
           </a>
         </div>
 
-        <a href={`https://wa.me/917054396198?text=${encodeURIComponent("Hello!")}`} className="btn-primary mt-8">
+        <a href={`https://wa.me/917054396198?text=${encodeURIComponent("Hello!")}`} className="btn-primary mt-8" target="_blank">
           SEND MESSAGE
         </a>
       </motion.div>
