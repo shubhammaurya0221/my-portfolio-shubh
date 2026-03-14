@@ -42,19 +42,19 @@ function Navbar() {
         transition={{ duration: 1 }}
       >
 
-        <motion.a whileHover="hover" variants={iconVariants} href="https://www.linkedin.com/" target="_blank">
+        <motion.a whileHover="hover" variants={iconVariants} href="https://www.linkedin.com/in/shubham-maurya-8b7307289/" target="_blank">
           <FaLinkedin />
         </motion.a>
 
-        <motion.a whileHover="hover" variants={iconVariants} href="https://github.com/" target="_blank">
+        <motion.a whileHover="hover" variants={iconVariants} href="https://github.com/shubhammaurya0221/" target="_blank">
           <FaGithub />
         </motion.a>
 
-        <motion.a whileHover="hover" variants={iconVariants} href="https://instagram.com/" target="_blank">
+        <motion.a whileHover="hover" variants={iconVariants} href="https://www.instagram.com/maurya.shubham_01/" target="_blank">
           <FaInstagram />
         </motion.a>
 
-        <motion.a whileHover="hover" variants={iconVariants} href="https://youtube.com/" target="_blank">
+        <motion.a whileHover="hover" variants={iconVariants} href="https://www.youtube.com/@DuoDeveloper01" target="_blank">
           <FaYoutube />
         </motion.a>
 
