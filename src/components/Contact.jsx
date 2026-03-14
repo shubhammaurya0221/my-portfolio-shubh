@@ -70,7 +70,7 @@ function Contact() {
             {CONTACT.email}
           </a>
           <a 
-            href="https://linkedin.com/in/shubhammaurya0221" 
+            href="https://www.linkedin.com/in/shubham-maurya-8b7307289/" 
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-white transition-colors relative hover-underline py-2"
