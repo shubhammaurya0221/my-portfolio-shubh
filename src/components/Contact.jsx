@@ -52,7 +52,7 @@ function Contact() {
 
       {/* Footer minimal text */}
       <div className="mt-32 border-t border-white/5 pt-8 text-center font-space text-[10px] tracking-[0.2em] uppercase text-white/30">
-        <p>© {new Date().getFullYear()} Crafted By DuoDeveloper{</>} </p>
+        <p>© {new Date().getFullYear()} Crafted By DuoDeveloper {"</>"}</p>
       </div>
     </section>
   );
