@@ -49,13 +49,12 @@ function Navbar() {
         <motion.a whileHover="hover" variants={iconVariants} href="https://github.com/shubhammaurya0221/" target="_blank">
           <FaGithub />
         </motion.a>
-
-        <motion.a whileHover="hover" variants={iconVariants} href="https://www.instagram.com/maurya.shubham_01/" target="_blank">
+        <motion.a whileHover="hover" variants={iconVariants} href="https://instagram.com/maurya.shubham_01" target="_blank">
           <FaInstagram />
         </motion.a>
 
-        <motion.a whileHover="hover" variants={iconVariants} href="https://www.youtube.com/@DuoDeveloper01" target="_blank">
-          <FaYoutube />
+        <motion.a whileHover="hover" variants={iconVariants} href="https://youtube.com/@DuoDeveloper01" target="_blank">
+        <FaYoutube />
         </motion.a>
 
       </motion.div>

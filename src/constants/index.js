@@ -21,14 +21,20 @@ export const ABOUT_TEXT = "Dedicated and versatile Full Stack Developer with str
 
 export const EXPERIENCES = [
   {
+    year: "Mar 2026 - Present",
+    role: "MERN Stack Developer Intern",
+    company: "Treebay Technology Pvt. Ltd. – Lucknow, Uttar Pradesh",
+    description: `Developing the Treebay green energy platform using the MERN Stack. Building responsive UI components, integrating backend APIs, and deploying scalable full-stack features in a production environment.`,
+    technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "Tailwind CSS", "REST APIs"],
+  },
+  {
     year: "Sep 2025 - Nov 2025",
     role: "Frontend Web Developer Intern",
     company: "Leafny Web Pack Services",
-    description: `Focused on building scalable React interfaces and creating robust, reusable UI components. Responsible for optimizing frontend performance to deliver seamless user experiences across various devices. Collaborate closely with cross-functional teams to integrate features and maintain high code quality standards.`,
+    description: `Built scalable React interfaces and robust, reusable UI components. Optimized frontend performance for seamless cross-device user experiences while collaborating with cross-functional teams.`,
     technologies: ["React.js", "JavaScript", "Tailwind CSS", "Git"],
   }
 ];
-
 export const PROJECTS = [
   // Full Stack
   {
