@@ -1,4 +1,4 @@
-import logo from '/public/logo.png'
+import logo from '../assets/logo.png';
 import React from 'react';
 import { FaLinkedin, FaYoutube, FaGithub, FaInstagram } from "react-icons/fa";
 import { motion } from "framer-motion";
